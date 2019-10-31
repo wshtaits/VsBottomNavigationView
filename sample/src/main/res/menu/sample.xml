@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_wifi"
+        android:title="@string/wifi"
+        android:icon="@drawable/ic_wifi"
+        android:checked="true"
+        />
+
+    <item
+        android:id="@+id/action_cellular"
+        android:title="@string/cellular"
+        android:icon="@drawable/ic_cellular"
+        />
+
+    <item
+        android:id="@+id/action_battery"
+        android:title="@string/battery"
+        android:icon="@drawable/ic_battery"
+        />
+
+</menu>

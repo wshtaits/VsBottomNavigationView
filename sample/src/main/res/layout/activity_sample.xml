@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.wshtaits.vsbottomnavigationview.VsBottomNavigationView
+        android:id="@+id/vs_bottom_navigation_view"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom"
+        android:background="#fff"
+        android:elevation="8dp"
+        app:menu="@menu/sample"
+        app:itemLayout="@layout/item_sample"
+        tools:targetApi="lollipop" >
+
+        <include layout="@layout/item_sample_specific" />
+
+    </com.wshtaits.vsbottomnavigationview.VsBottomNavigationView>
+
+</FrameLayout>

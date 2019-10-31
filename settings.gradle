@@ -1,0 +1,2 @@
+include ':sample', ':vsbottomnavigationview'
+rootProject.name='VsBottomNavigationView'
